@@ -4,8 +4,9 @@ namespace SignupWithMailConfirmation.Models
 {
     public class MailClass
     {
-        public string FromMailId { get; set; } = "javalised@gmail.com";
-        public string FromMailIdPassword { get; set; } = "@@BETTERpronounciatioin7!!!";
+        //public string FromMailId { get; set; } = "javalised@gmail.com";
+        public string FromMailId { get; set; } = "mylaboratorymailserver@gmail.com";
+        public string FromMailIdPassword { get; set; } = "rnrmf12!@#";
         public List<string> ToMailIds { get; set; } = new List<string>();
         public string Subject { get; set; } = "";
         public string Body { get; set; } = "";
