@@ -5,7 +5,7 @@ namespace SignupWithMailConfirmation.IServices
 {
     public interface IMailService
     {
-         Task<string> SendMail(MailClass oMailClass);
+         Task<string> SendMail(Mail oMailClass);
          string GetMailBody(LoginInfo oLoginInfo);
     }
 }

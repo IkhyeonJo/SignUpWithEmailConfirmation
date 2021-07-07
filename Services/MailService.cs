@@ -33,7 +33,7 @@ namespace SignupWithMailConfirmation.Services
                                     
         }
 
-        public async Task<string> SendMail(MailClass oMailClass)
+        public async Task<string> SendMail(Mail oMailClass)
         {
             try
             {

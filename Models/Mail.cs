@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace SignupWithMailConfirmation.Models
 {
-    public class MailClass
+    public class Mail
     {
         //public string FromMailId { get; set; } = "javalised@gmail.com";
         public string FromMailId { get; set; } = "mylaboratorymailserver@gmail.com";
